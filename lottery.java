@@ -33,7 +33,7 @@ public class lottery {
                 String[] data = line.split(cvsSplitBy);
                 // loop through each slot/column 
                 for (int i = 0; i < 6; i++) {
-                    // parse the column and outputs and integer
+                    // parse the column and outputs an integer
                     int num = Integer.parseInt(data[i]);
                     // increment the count of the number in the corresponding
                     count[num][i]++;
